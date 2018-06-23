@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fitness</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale = 1, shrink-to-fit=no">
+        <meta name="title" content="Fitness" />
+        <meta name="url" content="http://www.fitness.com.br" />
+        <meta name="description" content="Fitness" />
+        <meta name="keywords" content="Fitness" />
+        <meta name="autor" content="Fitness" />
+        <meta name="company" content="Fitness" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Spectral:400,500i,700,700i" rel="stylesheet">
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+        <script type="text/javascript">
+            function validar(){
+                var nome = formuser.nome.value;
+                var email = formuser.email.value;
+                                
+                if(nome == ""){
+                    alert('Preencha o campo nome.');
+                    formuser.nome.focus();
+                    return false;
+                }
+                
+                if(email == "" || email.indexOf('@') == -1 ){
+                    alert('Preencha o campo E-mail.');
+                    formuser.email.focus();
+                    return false;
+                }
+                
+            
+            }
+        </script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header >
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 col-xs-4">
+                        <img src="img/logo.png" class="img-responsive logo">
+                    </div>
+                    <div class="col-sm-10 col-xs-8">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                              
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle navbar-toggle-right collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2 " aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand hide" href="#">Menu</a>
+                                </div>
+                                <div class="collapse navbar-collapse hidden-xs" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#">ABOUT</a></li>
+                                        <li><a href="#">HOW IT WORKS</a></li>
+                                        <li><a href="#">SERVICES</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">CONTACT</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                            
+                        </nav>
+
+                    </div>
+
+                </div>
+                <div class="row hidden-lg hidden-md hidden-sm ">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                        <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#">ABOUT</a></li>
+                                        <li><a href="#">HOW IT WORKS</a></li>
+                                        <li><a href="#">SERVICES</a></li>
+                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <div class="clearfix"></div>
+
+      <!--banner-->
+            <div class="carousel fade-carousel slide carousel-fade" data-ride="carousel" data-interval="2500" id="bs-carousel">
+                  <div class="carousel-inner ">
+                <div class="item active">
+                    <img src="img/banner01.jpg" alt="...">
+
+                </div>
+                <div class="item slides">
+                    <img src="img/banner02.jpg" alt="...">
+
+                </div>
+
+                 <div class="item slides">
+                    <img src="img/banner03.jpg" alt="...">
+
+                </div>
+
+                  <div class="item slides">
+                    <img src="img/banner04.jpg" alt="...">
+
+                </div>
+
+                  <div class="item slides">
+                    <img src="img/banner05.jpg" alt="...">
+
+                </div>
+
+            </div>
+
+                  </div>
+        <div class="clearfix"></div>
+        <!-- Banner -->
+
+        <!-- Como Funciona -->
+        <div class="clearfix"></div>
+        <div class="container-fluid">
+            <div class="row" style="background-color:#a2ca28" >
+                <div class="col-sm-10 col-sm-offset-1 ">
+                             <div class="col-sm-3 text-left" >
+                     <img class="img-responsive left-block icon_margin" src="img/ico_1.png" /><br/>
+
+                    <span class="titulo_tex">Resources</span>
+                    <div class="conteudo_fun"><span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and </span></div>
+                    <button class="btn-link" style="text-align:left">Explore more →</button>
+
+
+                </div>
+                <div class="col-sm-3 text-left" >
+                    <img class="img-responsive left-block icon_margin" src="img/ico_2.png" /><br/>
+
+                    <span class="titulo_tex">Training & Funding</span>
+                    <div class="conteudo_fun"><span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and </span></div>
+                    <button class="btn-link" style="text-align:left">Explore more →</button>
+
+                </div>
+                <div class="col-sm-3 text-left">
+                    <img class="img-responsive left-block icon_margin" src="img/ico_3.png" /><br/>
+
+                    <span class="titulo_tex">Connect</span>
+                    <div class="conteudo_fun"><span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and </span></div>
+                    <button class="btn-link" style="text-align:left">Explore more →</button>
+
+                </div>
+
+                <div class="col-sm-3 text-left">
+                     <img class="img-responsive left-block icon_margin" src="img/ico_4.png" /><br/>
+
+                    <span class="titulo_tex">Communicate</span>
+                    <div class="conteudo_fun"><span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and </span></div>
+
+                            <button class="btn-link" style="text-align:left">Explore more →</button>
+
+
+                        </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+
+                <div class="col-sm-10 col-sm-offset-1 " style="text-align: center; ">
+                     <div class="col-sm-4" style="background-color: #ffffff; padding:3.46em  ">
+                         <span class="titulo_vermelho"><strong>IT'S ALL ABOUT</strong></span>
+                           <h4 class="titulo_verde">FITNESS FIRST</h4>
+                          <img class="img-responsive center-block" src="img/gota.png" /><br/>
+                         <div class="conteudo_box"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></div>
+
+                           <a href="#"><span style="text-align:center; text-decoration: underline; color:#a2ca28; ">Read More </span></a>
+
+                     </div>
+
+                     <div class="col-sm-8" style="padding-right: 0px; padding-left: 0px;">
+                         <img class="img-responsive center-block" src="img/foto_banner.jpg" />
+
+                     </div>
+                    
+                </div>
+
+
+
+                 <div class="col-sm-10 col-sm-offset-1 " style="text-align: center; ">
+
+                      <div class="col-sm-8" style="padding-right: 0px; padding-left: 0px">
+                         <img class="img-responsive center-block" src="img/foto_banner02.jpg" />
+
+                     </div>
+                    
+
+
+                     <div class="col-sm-4" style="background-color: #ffffff; padding:3.46em">
+                         <span class="titulo_vermelho" style="margin-top: 20px;"><strong>LOVE YOUR</strong></span>
+                           <h4 class="titulo_verde">YOUR BODY</h4>
+                          <img class="img-responsive center-block" src="img/gota.png" /><br/>
+                         <div class="conteudo_box"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></div>
+
+                           <a href="#"><span style="text-align:center; text-decoration: underline; color:#a2ca28; ">Read More </span></a>
+
+                     </div>
+
+                   
+                </div>
+            </div>
+            </div>
+
+        </div>
+   <div class="clearfix"></div>
+
+        <div class="clearfix"></div>
+        <div class="container-fluid ">
+               <div class="row" style="background-color:#fd634e" >
+                  <div class="col-sm-10 col-sm-offset-1">
+
+                     <div class="col-sm-4" style="padding-left: 0px; padding-right: 0px; padding-bottom: 0;">
+                         <img class="img-responsive left-block" src="img/foto_banner04.jpg"/> </div>
+
+
+                     <div class="col-sm-8" style="padding-right: 0px; padding-left: 0px">
+                         <img class="img-responsive left-block" src="img/foto_banner03.jpg"/></div>
+
+                  </div>
+
+                   <div class="col-sm-10 col-sm-offset-1 " style="text-align: left; ">
+                     <div class="col-sm-4" style="background-color: #ffffff; padding:3.46em  ">
+                        <span class="titulo_vermelho" style="text-align:left"><strong> TRACK YOUR</strong></span>
+                           <h4 class="titulo_verde" style="text-align:left">LIFE STYLE </h4>
+
+                         <div class="conteudo_box" style="text-align:left"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></div>
+                        
+                     </div>
+
+                   <div class="col-sm-8" style="background-color: #a2ca28; padding:3.46em; min-height: 294px; ">
+            
+                           <h4 class="titulo_branco" style="text-align:left">SUMMER OF FUN</h4>
+                         <div class="conteudo_box2" style="text-align:left"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</span></div>
+
+                     </div>
+
+
+              <div class="clearfix"></div>
+
+                <div class="col-sm-8" style="padding-left: 0px; padding-right: 0px; padding-bottom: 0">
+                         <img class="img-responsive left-block" src="img/foto_banner05.jpg"/> </div>
+
+
+                     <div class="col-sm-4" style="padding-right: 0px; padding-left: 0px">
+                         <img class="img-responsive left-block" src="img/foto_banner06.jpg"/></div>
+
+                  </div>
+                    
+                </div>
+            </div>
+        </div>
+
+              <div class="clearfix"></div>
+
+            <div class="container-fluid">
+                <div class="row fundo">
+                     <div class="col-sm-10 col-sm-offset-1 " style="text-align: center; ">
+                    
+                    
+                           <h3 class="titulo_branco" style="margin-top:300px">We launch leaders with big ideas</h3>
+                           <br>
+
+                         <div class="conteudo_box2" ><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud.</span></div>
+                     </div>
+                </div>
+            </div>
+               </div>
+                </div>
+
+               <div class="clearfix"></div>
+         <!--Footer-->
+
+                <footer>
+               
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1">
+
+                        <div class="col-sm-4" style="margin-top:20px">
+                             <div class="tittulo_roda"><span>Resources</span></div>
+                             <br>
+                                <div class="texto_rodape">
+                                <span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</span>
+                            </div>
+                        </div>
+                        
+
+                              <div class="col-sm-4" style="margin-top:20px">
+                             <div class="tittulo_roda"><span>About</span></div>
+                                 <br>
+                                <div class="texto_rodape">
+                                 <span>Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. work-in-progress by dragging images into projects and sharable client group</span>
+                               </div>
+                            </div>
+                        
+
+                                  <div class="col-sm-4" style="margin-top:20px">
+
+                             <div class="tittulo_roda"><span>Stay in touch</span></div>
+                                <br>
+                                
+                                    <div class="ico_redes">
+    <a href="#" target="blanck" border="0"><img src="img/ico_face.png"></a>
+    </div>
+       <div class="ico_redes">
+    <a href="#" target="blanck" border="0"><img src="img/ico_twiter.png"></a>
+    </div>
+         <div class="ico_redes">
+    <a href="#"   target="blanck" border="0" ><img src="img/ico_youtube.png"></a>
+    </div>
+    
+         <div class="ico_redes">
+    <a  href="#" target="blanck" border="0" ><img src="img/ico_linkedin.png"></a>
+    </div></div>
+                             
+                         
+
+                        <div class="clearfix"></div>
+                        <div class="container-fluid">
+
+                       <div class="row justify-content-end">
+                            <div class="col-sm-8" style="margin-bottom:400px; margin-top:100px;">
+                <form class="form-inline formuser" action="enviar.html" method="POST">
+
+                    <label class="sr-only" for="nameInline">Nome</label>
+                    <input type="text" id="nameInline" class="form-control " placeholder="Digite seu Nome">
+
+                    <label class="sr-only" for="emailInline">Email</label>
+                    <input type="text" id="emailInline" class="form-control " placeholder="Digite seu Email">
+                    <button class="btn btn-sucess" onclick="return validar()">Join Newsletter <img src="img/ico_entrar.png" alt="" class="icon"></button>
+
+                </form></div>
+                </div>
+            
+    </div>
+                        </div>
+                        </div>
+                 
+             </footer>
+
+         <!--Footer-->
+
+
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="dist/js/bootstrap.min.js"></script>
+        <script>
+            $('#carousel-example-generic').carousel({
+                interval: 2000
+            });
+        </script>
+    </body>
+</html>
